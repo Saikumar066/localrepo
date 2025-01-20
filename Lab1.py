@@ -191,3 +191,19 @@
 # print((name + " ")*time)
 
 #This code is for beginners in python."Be Good ALWAYS"
+
+#OOPS Concepts 
+#N natural number
+# n = int(input("Enter the Number to print the sum of it:"))
+# i = 1
+# while(i<=n):
+#     print(i)
+#     i =i+1
+
+#Patterns
+# n = int(input("Enter the number:"))
+# i = 1
+# while(i<=n):
+#     print("A" * i)
+#     i = i+1
+
