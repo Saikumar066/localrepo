@@ -209,20 +209,23 @@
 
 
 #SuperMethod
-class Car:
-    def __init__(self,type):
-        self.type = type
-    @staticmethod
-    def start():
-        print("Car is Started.")
-    @staticmethod
-    def stop():
-        print("Car is stoped")
+# class Car:
+#     def __init__(self,type):
+#         self.type = type
+#     @staticmethod
+#     def start():
+#         print("Car is Started.")
+#     @staticmethod
+#     def stop():
+#         print("Car is stoped")
 
-class Bmw(Car):
-    def __init__(self,name,type):
-        self.name= name
-        super().__init__(type)
+# class Bmw(Car):
+#     def __init__(self,name,type):
+#         self.name= name
+#         super().__init__(type)
     
-c1 = Bmw("audi","electric")
-print(c1.type)
+# c1 = Bmw("audi","electric")
+# print(c1.type)
+
+
+
