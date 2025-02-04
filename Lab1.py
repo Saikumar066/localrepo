@@ -228,15 +228,32 @@
 # print(c1.type)
 
 #Matrix Addition
-rows = int(input("Enter a number of rows:"))
-col = int(input("Enter a number of column:"))
-print("Enter first matrix row vise:")
-num1 = [[int (x) for x in input().split()] for _ in range(rows)]
-print("Enter second matrix row vise:")
-num2 = [[int (x) for x in input().split()] for _ in range(rows)]
+# rows = int(input("Enter a number of rows:"))
+# col = int(input("Enter a number of column:"))
+# print("Enter first matrix row vise:")
+# num1 = [[int (x) for x in input().split()] for _ in range(rows)]
+# print("Enter second matrix row vise:")
+# num2 = [[int (x) for x in input().split()] for _ in range(rows)]
 
-result = [[num1[i][j] + num2[i][j] for j in range(col)] for i in range(rows)]
-print("Resultant Matrix:")
-for row in result:
-    print(row)
+# result = [[num1[i][j] + num2[i][j] for j in range(col)] for i in range(rows)]
+# print("Resultant Matrix:")
+# for row in result:
+#     print(row)
+
+
+#Matrix Multiplication
+# rows = int(input("Enter the number of rows: "))
+# cols = int(input("Enter the number of columns: "))
+# print("Enter first matrix row-wise:")
+# num1 = [[int(x) for x in input().split()] for _ in range(rows)]
+# print("Enter second matrix row-wise:")
+# num2 = [[int(x) for x in input().split()] for _ in range(cols)] 
+# result = [[0 for _ in range(len(num2[0]))] for _ in range(rows)]
+# for i in range(rows):  
+#     for j in range(len(num2[0])):  
+#         for k in range(cols):  
+#             result[i][j] += num1[i][k] * num2[k][j]
+# print("Resultant Matrix:")
+# for row in result:
+#     print(row)
 
