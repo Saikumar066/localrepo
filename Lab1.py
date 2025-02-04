@@ -227,5 +227,16 @@
 # c1 = Bmw("audi","electric")
 # print(c1.type)
 
+#Matrix Addition
+rows = int(input("Enter a number of rows:"))
+col = int(input("Enter a number of column:"))
+print("Enter first matrix row vise:")
+num1 = [[int (x) for x in input().split()] for _ in range(rows)]
+print("Enter second matrix row vise:")
+num2 = [[int (x) for x in input().split()] for _ in range(rows)]
 
+result = [[num1[i][j] + num2[i][j] for j in range(col)] for i in range(rows)]
+print("Resultant Matrix:")
+for row in result:
+    print(row)
 
