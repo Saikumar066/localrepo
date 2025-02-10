@@ -241,7 +241,7 @@
 #     print(row)
 
 
-#Matrix Multiplication
+# Matrix Multiplication
 # rows = int(input("Enter the number of rows: "))
 # cols = int(input("Enter the number of columns: "))
 # print("Enter first matrix row-wise:")
@@ -259,17 +259,70 @@
 
 
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+# def is_prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, int(n ** 0.5) + 1):
+#         if n % i == 0:
+#             return False
+#     return True
 
-if __name__ == "__main__":
-    num = int(input("Enter a number: "))
-    if is_prime(num):
-        print(f"{num} is a prime number.")
-    else:
-        print(f"{num} is not a prime number.")
+# if __name__ == "__main__":
+#     num = int(input("Enter a number: "))
+#     if is_prime(num):
+#         print(f"{num} is a prime number.")
+#     else:
+#         print(f"{num} is not a prime number.")
+
+# def swap_numbers(a, b):
+#     return b, a
+
+# if __name__ == "__main__":
+#     x = int(input("Enter first number: "))
+#     y = int(input("Enter second number: "))
+    
+#     x, y = swap_numbers(x, y)
+#     print(f"After swapping: First number = {x}, Second number = {y}")
+
+
+# def linear_search(arr, target):
+#     for i in range(len(arr)):
+#         if arr[i] == target:
+#             return i
+#     return -1
+
+# if __name__ == "__main__":
+#     arr = list(map(int, input("Enter list elements separated by space: ").split()))
+#     target = int(input("Enter the target element: "))
+    
+#     index = linear_search(arr, target)
+#     if index != -1:
+#         print(f"Element found at index {index}")
+#     else:
+#         print("Element not found in the list")
+
+# def fibonacci(n):
+#     fib_series = [0, 1]
+#     for i in range(2, n):
+#         fib_series.append(fib_series[-1] + fib_series[-2])
+#     return fib_series[:n]
+
+# if __name__ == "__main__":
+#     n = int(input("Enter the number of Fibonacci terms: "))
+#     print("Fibonacci Series:", fibonacci(n))
+
+
+# def count_words_and_chars(text):
+#     num_words = len(text.split())  # Splitting by spaces to count words
+#     num_chars = len(text)  # Counting all characters including spaces
+#     return num_words, num_chars
+
+# # Input from user
+# input_text = input("Enter a string: ")
+
+# # Count words and characters
+# words, chars = count_words_and_chars(input_text)
+
+# # Display results
+# print(f"Number of words: {words}")
+# print(f"Number of characters: {chars}")
